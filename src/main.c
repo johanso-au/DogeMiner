@@ -1,3 +1,5 @@
+// Works covered by CC BY-NC-SA 4.0
+
 #include <pebble.h>
  
 Window* window;

@@ -1,3 +1,5 @@
+// Works covered by CC BY-NC-SA 4.0
+
 var maxTriesForSendingAppMessage = 3;
 var timeoutForAppMessageRetry = 3000;
 var timeoutForAPIRequest = 12000;
