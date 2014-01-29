@@ -1,0 +1,30 @@
+{
+    "versionLabel": "2.1",
+    "uuid": "66279e6b-6b37-4181-a328-5966124da43a",
+    "appKeys": {
+        "net_diff": 1,
+        "price_doge": 3,
+        "net_hash": 0,
+        "net_block": 2,
+        "price_usdk": 4
+    },
+    "longName": "DogeMiner Network Monitor",
+    "versionCode": 2,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "DogeMiner",
+    "companyName": "johanso",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "IMAGE_BG",
+                "file": "images/background.png"
+            }
+        ]
+    }
+}
