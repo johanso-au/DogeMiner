@@ -71,7 +71,13 @@ void tick_handler(struct tm *tick_time, TimeUnits units_changed)
         //Change the TextLayer text to show the new time!
         text_layer_set_text(time_layer, buffer);
 	
-		psleep(500); // 500ms sleep to wait for JS to be ready.
+		// 1.5 second sleep to wait for JS to be ready.
+		psleep(1500);
+		
+		// The 'psleep' is a shortcut. This really should be rewritten
+		// to have the watch wait on startup until the JS returns a 
+		// 'ready' event, then update.
+		
 		update();	
 }
 
